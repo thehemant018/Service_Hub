@@ -43,7 +43,7 @@ const Nav = () => {
                   <li className="nav-item"> <Link className="nav-link" to="/profile">Profile</Link> </li>
                   <li className="nav-item"> <Link className="nav-link" to="/payment">Subscription</Link> </li>
                   <li className="nav-item"> <Link className="nav-link" to="/proflogin">Professionals</Link> </li>
-                  {/* <li className="nav-item"> <Link className="nav-link" to="/adminlogin">Admin</Link> </li> */}
+                  
                   <li className="nav-link"> <Link onClick={handleLogout} to="/">Logout</Link> </li>
                 </>
               )}

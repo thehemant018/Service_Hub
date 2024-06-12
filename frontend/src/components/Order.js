@@ -11,7 +11,6 @@ const Order = (props) => {
   const today = new Date().toISOString().split('T')[0];   //for displace accept & cancel button for todays services
   const [ratingsData, setRatingsData] = useState({ 1: 0, 2: 0, 3: 1, 4: 0, 5: 0 });
   const stars = Array.from({ length: 5 }, (_, index) => index + 1);
-  // const [otp, setOtp] = useState('');
   const [otpInputs, setOtpInputs] = useState({});
   const navigate = useNavigate();
 
@@ -40,7 +39,6 @@ const Order = (props) => {
 
         props.setProgress(70);
         const data = await response.json();
-        // console.log(data);
         setServiceRequests(data);
         props.setProgress(100);
       }
@@ -98,8 +96,7 @@ const Order = (props) => {
       });
 
       setServiceRequests(updatedServiceRequests);
-      // console.log('Service request accepted successfully');
-
+      
 
       Swal.fire({
         icon: 'success',
