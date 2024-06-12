@@ -61,7 +61,7 @@ const SelectService = (props) => {
                     navigate('/payment');
                 }
                 else if (response.status === 400 && responseData.error === 'Please wait a few minutes to approve the subscription') {
-                    // alert('Please wait a few minutes to approve the subscription!');
+                    
                     toast.info('Please wait a few minutes to approve the subscription!');
                     navigate('/payment');
                 }
@@ -72,7 +72,7 @@ const SelectService = (props) => {
             props.setProgress(100);
             if (response.ok) {
                 toast.success('Service Booked Successfully');
-                // alert('Service Booked Successfully');
+                
                 navigate('/profile');
             }
         }

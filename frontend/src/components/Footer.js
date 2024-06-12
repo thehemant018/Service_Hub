@@ -7,7 +7,6 @@ const Footer = () => {
             <div className="footer">
                 <img className="footer-logo" src="/images/logo.png" alt="img" />
                 <span className="footer-title">Service Hub</span>
-
                 <ul>
                     <li className="footer-list"><Link to="/">Home</Link></li>
                     <li className="footer-list"><Link to="/profsignup">Register as Professional</Link></li>
@@ -15,7 +14,6 @@ const Footer = () => {
                     <li className="footer-list"><Link to="/about">About Us</Link></li>
                     <li className="footer-list"><Link to="">Policy</Link></li>
                     <li className="footer-list"><Link to="">Login/Signup</Link></li>
-                    {/* <li className="footer-list"><Link to="">Password Protected </Link></li> */}
                 </ul>
 
                 <h2 className="sub">Subscribe</h2>

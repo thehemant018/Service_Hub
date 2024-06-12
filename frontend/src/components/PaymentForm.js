@@ -27,9 +27,9 @@ const PaymentForm = () => {
 
       const responseData = await response.json();
       navigate("/")
-      // alert('Subscription Done Wait for approvel')
+     
       toast.success('Subscription Done Wait for approvel!');
-      // console.log('Subscription updated:', responseData);
+      
     }
 
     catch (error) {

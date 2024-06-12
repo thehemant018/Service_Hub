@@ -213,7 +213,6 @@ const Home = () => {
       {/* Body  */}
       <div className="Body">
         <h1 className="body-title">Why Service Hub?</h1>
-
         <div className="services">
 
           <div className="box">
@@ -249,7 +248,6 @@ const Home = () => {
           
         </div>
       </div>
-
     </>
   )
 };

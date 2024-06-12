@@ -58,17 +58,6 @@ export default function ProfDetail({ value, onChange }) {
             </div>
          </div>
 
-         {/* <div className='profdetails-star'>
-            {stars.map((starValue) => (
-               <FaStar
-                  key={starValue}
-                  size={24}
-                  style={{ marginRight: 5, cursor: 'pointer', color: starValue <= value ? '#ffc107' : '#e4e5e9' }}
-                  onClick={() => onChange(starValue)}
-               />
-            ))}
-         </div> */}
-
          <div className="profdetails-grid grid">
             <div className="profdetails-row row">
                <div className="profdetails-col col">

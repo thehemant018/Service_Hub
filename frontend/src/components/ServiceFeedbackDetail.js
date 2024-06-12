@@ -58,7 +58,6 @@ const ServiceFeedbackDetail = (props) => {
             if (!response.ok)
                 throw new Error('Failed to save rating');
             
-            // alert("Thank's for feedback")
             toast.success("Thank's for feedback")
             setRatingSaved(true);
         }

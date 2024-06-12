@@ -114,8 +114,7 @@ const Profile = (props) => {
     const userLon = ulon;
     const profLat = plat;
     const profLon = plon;
-    // const [userLat, userLon] = userCoordinates;
-    // const [profLat, profLon] = professionalCoordinates;
+    
     const dLat = (profLat - userLat) * (Math.PI / 180);
     const dLon = (profLon - userLon) * (Math.PI / 180);
 

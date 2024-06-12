@@ -27,7 +27,6 @@ const ProfLogin = (props) => {
           navigate("/bookservice");
         }
         else {
-          // alert("Invalid cedetials");
           toast.error("Invalid cedetials")
         }
   }

@@ -5,8 +5,10 @@ import PaymentForm from './PaymentForm'
 const Subscription = () => {
   return (
    <>
+
     <SubscriptionPlans/>
     <PaymentForm/>
+    
    </>
   )
 }

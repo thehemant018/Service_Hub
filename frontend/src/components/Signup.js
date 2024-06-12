@@ -52,7 +52,6 @@ const Signup = (props) => {
       navigate("/login");
     }
     else {
-      // alert("Invalid credentials");
       toast.error("Invalid credentials")
     }
   };

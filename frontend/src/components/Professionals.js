@@ -34,29 +34,6 @@ const Professionals = (props) => {
     }, []);
 
 
-    // const handleSubmit = async (e) => {
-    //     e.preventDefault();
-    //     const { name, password, aadhar, category, email, contact, city, address, image,latitude, longitude } = credentials;
-    //     props.setProgress(30);
-    //     const response = await fetch(`http://localhost:1818/api/prof/profcreateuser`, {
-    //         method: "POST",
-    //         headers: { "Content-Type": "application/json" },
-    //         body: JSON.stringify({ name, password, aadhar, category, email, contact, city, address,image, latitude, longitude }),
-    //     });
-
-    //     props.setProgress(70);
-    //     const json = await response.json();
-
-    //     props.setProgress(100);
-    //     if (json.success){
-    //         toast.success('Signup Successfuly!')
-    //         navigate("/proflogin");
-    //     }
-    //     else{
-    //         toast.error('Invalid cedetials!')
-    //         // alert("Invalid cedetials");
-    //     }
-    // }
 
     const handleSubmit = async (e) => {
         e.preventDefault();
